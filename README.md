@@ -45,10 +45,10 @@ WVU Nexus puts the most important of that information in one place. Most of the 
 
 | Date | Milestone |
 |---|---|
-Deliverable 1: repo, board, charter, RACI |
-Product live with pilot users |
-Team presentation |
-Final product delivery |
+Deliverable 1: repo, board, charter, RACI 
+Product live with pilot users 
+Team presentation 
+Final product delivery 
 
 ---
 
@@ -60,11 +60,11 @@ Final product delivery |
 
 | Role | Team member |
 |---|---|
-| Project Manager | [NAME] |
-| Lead Business Analyst | [NAME] |
-| Scrum Master | [NAME] |
-| Systems Architect | [NAME] |
-| QA Lead | [NAME] |
+| Project Manager | Ethan W |
+| Lead Business Analyst | MJ F |
+| Scrum Master | Carter S |
+| Systems Architect | Rodney E |
+
 
 **Governance:** The Project Manager approves scope changes. Work is tracked on the GitHub Project board in two week sprints, and all work is committed to the main branch.
 
