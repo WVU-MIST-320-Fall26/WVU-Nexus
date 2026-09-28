@@ -45,10 +45,10 @@ WVU Nexus puts the most important of that information in one place. Most of the 
 
 | Date | Milestone |
 |---|---|
-Deliverable 1: repo, board, charter, RACI 
-Product live with pilot users 
-Team presentation 
-Final product delivery 
+Deliverable 1: repo, board, charter, RACI | 9/21
+Product live with pilot users | 11/30
+Team presentation | 12/1
+Final product delivery | 12/3
 
 ---
 
