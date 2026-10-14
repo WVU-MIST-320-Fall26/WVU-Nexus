@@ -43,12 +43,16 @@ WVU Nexus puts the most important of that information in one place. Most of the 
 
 **Key milestones**
 
-| Date | Milestone |
+| Milestone | Date |
 |---|---|
-Deliverable 1: repo, board, charter, RACI | 9/21
-Product live with pilot users | 11/30
-Team presentation | 12/1
-Final product delivery | 12/3
+| Deliverable 1: repo, board, charter, RACI | 9/21 |
+| Product live with pilot users | 11/30 |
+| Team presentation | 12/1 |
+| Final product delivery | 12/3 |
+
+### Course deliverables vs product milestones
+
+Course deliverables are tracked as the dates in the table above. Product delivery is tracked separately as GitHub milestones M1 to M3, and the two are deliberately different objects with their own dates.
 
 ---
 
