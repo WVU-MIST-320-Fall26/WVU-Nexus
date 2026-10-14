@@ -167,7 +167,11 @@ M1 holds 24 points, M2 holds 50, and M3 holds 50. M2 and M3 both exceed a realis
 
 ## Part 6: The capacity problem and what to do about it
 
-**The math.** Four people, roughly 6 to 8 hours a week each on this course, two week sprints. That supports somewhere around 24 points per sprint. Three sprints is about 72 points. The backlog is 124.
+**The math.** Four people, roughly 6 to 8 hours a week each on this course, two week sprints. That supports somewhere around 24 points per sprint. Three sprints is about 72 points.
+
+The window from Nov 23 to Dec 4 adds roughly 12 points of capacity. Most of it is reserved for presentation prep and final deliverables rather than new features, and Thanksgiving falls inside it, so treat 12 as an upper bound. Build capacity is therefore roughly **72 to 84 points**.
+
+The backlog is 124 points, so the gap is 40 to 52 points.
 
 Three options, and they are the only three:
 
@@ -175,19 +179,24 @@ Three options, and they are the only three:
 2. **Extend time.** Not possible. Dec 4 is the end.
 3. **Lower the quality bar.** Rejected. Accessibility and privacy are what make the product adoptable, and cutting them defeats the purpose.
 
-**Recommended cuts, roughly 50 points:**
+**Recommended cuts, 34 points:**
 
-| Issue | Title | Points | Reasoning |
+| Issue | Title | Points saved | Reasoning |
 |:--:|---|:--:|---|
 | #7 | Dining and library hours | 5 | Nice to have. Not core to the problem statement. |
 | #8 | Academic calendar and alerts | 3 | Same. |
 | #11 | Automate import and refresh | 8 | Manual refresh is acceptable for a pilot. Scheduling is the expensive part. |
-| #15 | Extraction review screen | 8 | Only if the syllabus spike comes back poor. Decide after the measurement. |
 | #17 | Course detail view | 5 | The risk indicator can ship without the explanation screen, though it is weaker. |
-| #21 | Account and data deletion | 3 | **Do not cut.** Listed to show it was considered. Deletion is a privacy commitment. |
-| #22 | Split pilot recruitment | 13 → 8 | Split analytics instrumentation from recruitment effort. |
+| #15 | Extraction review screen | 8 | **Conditional.** Cut #15 only if the syllabus extraction spike (#13) reports below usable accuracy. Decision date: end of Sprint 1, Oct 25. |
+| #22 | Split pilot recruitment | 5 | Split analytics instrumentation from recruitment effort, taking the recruitment half from 13 to 8. |
 
-Cutting #7, #8, #11, and #17 alone removes 21 points and costs the least.
+**The arithmetic:** 5 (#7) + 3 (#8) + 8 (#11) + 5 (#17) + 8 (#15, conditional) + 5 (#22 split) = **34 points**.
+
+Cutting #7, #8, #11, and #17 alone removes 21 points and costs the least. The other 13 points depend on a spike result (#15) and on how the pilot recruitment work is split (#22).
+
+**Not available to cut:** account and data deletion (#21, 3 points) is a privacy commitment, not a scope choice, and stays in the plan.
+
+**The residual.** 124 - 34 = 90 points against a build capacity of roughly 72 to 84. Even after every listed cut, the plan is **6 to 18 points over**. One more mid-size item has to go, or one epic ships partial. Which one is a team decision, and this packet does not propose it.
 
 **What to do with this:** do not decide it alone. Take it to the team as a scope conversation, record the decision in `SCOPE.md` under change control, and log it for the reflective essay. A documented, data-driven scope cut is one of the strongest artifacts this course can produce.
 
@@ -233,4 +242,4 @@ The GitHub issues themselves are the source of truth for titles, story points, a
 
 ## AI Use Note
 
-Claude was used to convert issue titles to task verb form, draft initial story point estimates with written reasoning for each, propose the sprint and milestone structure, and calculate the capacity gap between the backlog and the time remaining. The team ran its own estimation session and adjusted the point values, and decided which scope to cut in response to the capacity finding.
+Claude was used to convert issue titles to task verb form, draft initial story point estimates with written reasoning for each, propose the sprint and milestone structure, and calculate the capacity gap between the backlog and the time remaining. The story point values are proposed starting values pending a team planning poker session, and the team would adjust them wherever its own estimates differ. The capacity finding has not yet been acted on. The team would decide which scope to cut, and when, as a scope conversation recorded under change control.
