@@ -188,11 +188,11 @@ A deferred feature and an engaged Vice Provost is a better outcome than a rushed
 
 | Field | Entry |
 |---|---|
-| Decision | ☐ Approve ☐ Reject ☐ Defer |
-| Decided by | |
-| Date | |
-| Conditions | |
-| Scope traded out, if approved | |
+| Decision | ☒ Defer |
+| Decided by | Ethan W, Project Manager, on behalf of the project team |
+| Date | 2026-11-02 |
+| Conditions | 5-point architectural provision approved for Sprint 3. CR-001 revisited after Dec 4. Written response to the Vice Provost within one week. |
+| Scope traded out, if approved | N/A, deferred |
 
 Approved changes update the scope baseline in `SCOPE.md` with the reason recorded.
 
