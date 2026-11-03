@@ -22,4 +22,4 @@
 
 ## AI Use Note
 
-ChatGPT (OpenAI) was used to assist in drafting the risk register, including identifying potential technical and operational risks, organizing the risk register table, and suggesting mitigation strategies. The team is responsible for reviewing the identified risks, verifying their relevance to the WVU-Nexus project, and updating likelihood, impact, ownership, and status to reflect the team's actual assessment.
+ChatGPT (OpenAI) was used to draft this risk register, including the table structure, the identified risks, and the suggested mitigations. The team is reviewing each risk for relevance and setting the final probability, impact, owner, and status values.
