@@ -41,9 +41,16 @@ The useful signal here is commitment accuracy. Hitting committed scope exactly i
 
 ### Burn-up chart
 
-> **[INSERT BURN-UP CHART IMAGE HERE]**
->
-> From the project board: Insights, then the burn-up chart, filtered to the Status field. Export or screenshot and commit the image to `docs/images/`, then reference it here.
+![Burn-up chart through Sprint 2](images/burnup-sprint2.png)
+
+*Chart generated from GitHub Projects Insights. Two notes on reading it:
+the scope increase on Nov 3 reflects the CR-001 decomposition being added
+to the board, and the completed line includes cancelled and ceremony items
+that are excluded from the earned value figures. The sprint totals in
+section 2 (24 points at Oct 25, 50 at Nov 8) are the authoritative
+delivery numbers. Status changes were also applied at sprint close rather
+than continuously, so the curve reflects administrative close dates rather
+than daily progress.*
 
 **What the chart shows:** the scope line sits flat at 121 points while the completed line rises from 0 to 24 to 50. The gap between the two lines at Sprint 2 close is 71 points, and only one sprint remains to close it.
 
