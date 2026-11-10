@@ -37,7 +37,7 @@ These assumptions are stated up front because every figure below depends on them
 
 **Interpretation.** Two data points do not establish a trend, and the apparent improvement is within normal sprint-to-sprint variation. The defensible planning figure for Sprint 3 is the two-sprint average of **25 points**, not the Sprint 2 result of 26. Planning against the most recent sprint rather than the average is a common forecasting error that builds optimism bias into the schedule.
 
-**Commitment accuracy** is the more useful signal here. Hitting committed scope exactly in both sprints suggests sprint-level planning is sound. The project's problem is not sprint execution. It is total scope against total capacity, which section 4 quantifies.
+The useful signal here is commitment accuracy. Hitting committed scope exactly in both sprints suggests sprint-level planning is sound. The project's problem is not sprint execution. It is total scope against total capacity, which section 4 quantifies.
 
 ### Burn-up chart
 
@@ -125,4 +125,4 @@ This is deliberate and it is visible on purpose. The board now displays the same
 
 ## AI Use Note
 
-Claude (Anthropic) was used to structure this report, perform the EVM calculations from the team's story point data, and draft the interpretation sections. The team supplied the velocity figures and scope totals from the project board, reviewed the calculations, and produced the burn-up chart from GitHub Projects Insights.
+Claude (Anthropic) was used to structure this report, perform the EVM calculations from the team's story point data, and draft the interpretation sections. The team supplied the velocity figures and scope totals from the project board, reviewed the calculations, and verified the velocity figures against the project board.

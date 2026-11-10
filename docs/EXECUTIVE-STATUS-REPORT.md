@@ -87,4 +87,4 @@ A fixed deadline, a fixed team, and a scope baseline larger than both. Scope is 
 
 ## AI Use Note
 
-Claude (Anthropic) was used to draft this executive summary from the project's metrics and EVM report. The team reviewed the health assessment, risk ranking, and recommendations before issuing it.
+Claude (Anthropic) was used to draft this executive summary from the project's metrics and EVM report. The team reviewed the health assessment, risk ranking, and strategic recommendations. The 75-point re-baseline is a recommendation pending team decision.
