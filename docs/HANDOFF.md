@@ -102,8 +102,8 @@ WCAG 2.1 Level AA is treated as a procurement gate, not a feature. The design ca
 | `docs/EXECUTIVE-STATUS-REPORT.md` | C-level status summary |
 | `docs/DELIVERABLE-3-PACKET.md` | Story point estimates with per-item reasoning and the capacity analysis |
 | `docs/images/` | Burn-up chart and other exported board artifacts |
-| `HANDOFF.md` | This document |
-| `LESSONS-LEARNED.md` | Team retrospective and advice to future teams |
+| `docs/HANDOFF.md` | This document |
+| `docs/LESSONS-LEARNED.md` | Team retrospective and advice to future teams |
 
 **Project board:** GitHub Projects #4 under the `WVU-MIST-320-Fall26` organization. Issues #3 through #36.
 
