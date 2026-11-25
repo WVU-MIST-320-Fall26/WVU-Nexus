@@ -32,9 +32,6 @@ epic:foundation
 D2
 Deployed environment with CI running on every change
 epic:foundation
-D3
-Live PRT status display
-epic:campus-data
 D4
 Campus information: academic calendar, dining and library hours, alerts
 epic:campus-data
@@ -65,6 +62,17 @@ epic:trust
 D13
 Pilot deployment to WVU students with usage analytics
 epic:trust
+
+
+Descoped after baseline
+#
+Deliverable
+Epic
+Reason
+D3
+Live PRT status display
+epic:campus-data
+Descoped in November 2026 after WVU discontinued the public PRT status endpoint (now posted only to X); recorded as realized risk R-01 in RISK-REGISTER.md.
 
 
 
