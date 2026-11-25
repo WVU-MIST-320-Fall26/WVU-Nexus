@@ -87,6 +87,13 @@ Course deliverables are tracked as the dates in the table above. Product deliver
 
 ---
 
+## Documentation
+
+- [Project Handoff Documentation](docs/HANDOFF.md) — As-built status, system architecture, data source inventory, governance summary, and open items for a future team.
+- [Lessons Learned](docs/LESSONS-LEARNED.md) — Team retrospective covering what worked, what did not, GitHub Projects evaluation, and advice for future teams.
+
+---
+
 ## AI Use Note
 
 Claude (Anthropic) was used to draft the structure and initial language of this charter. The team filled in role assignments, reviewed scope and objectives, and edited the final version.
