@@ -1,6 +1,17 @@
 # WVU-Nexus
 # WVU Nexus: Project Charter
 
+## Scope note
+
+This repository is the project management record for WVU Nexus. The course
+deliverable is the management of the project, not the software. Backlog items
+were estimated, committed, and tracked as planning artifacts, and `Done`
+reflects completion of that workflow. No application code is in this repository.
+A clickable prototype of the concept exists from prior work outside this course
+and runs on hardcoded values.
+
+---
+
 **Course:** MIST 320, Fall 2026
 **Executive Sponsor:** Katherine Kopp
 **Project Manager:** Ethan Weaver
